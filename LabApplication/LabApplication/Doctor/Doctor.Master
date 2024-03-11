@@ -79,38 +79,31 @@
                         </li>
 
                         <li>
-                            <a href="NewService.aspx">
+                            <a href="../Admin/NewService.aspx">
                                 <div class="icon"><i class="fas fa-plus-square"></i></div>
                                 <div class="title">New Service</div>
                             </a>
                         </li>
 
                         <li>
-                            <a href="ServiceList.aspx">
+                            <a href="../Admin/ServiceList.aspx">
                                 <div class="icon"><i class="fas fa-file-alt"></i></div>
                                 <div class="title">Service List</div>
                             </a>
                         </li>
 
                         <li>
-                            <a href="ViewReport.aspx">
+                            <a href="../Admin/ViewReport.aspx">
                                 <div class="icon"><i class="fas fa-file-download"></i></div>
                                 <div class="title">ViewView Report</div>
                             </a>
                         </li>
 
                         <li>
-                            <a href="ContactList.aspx">
+                            <a href="../Admin/ContactList.aspx">
                                 <div class="icon"><i class="fas fa-comment-alt"></i></div>
                                 <div class="title">Contact List</div>
                             </a>
-                        </li>
-
-                        <li>
-                        <a href="UserList.aspx">
-                            <div class="icon"><i class="fas fa-users"></i></div>
-                            <div class="title">User List</div>
-                        </a>
                         </li>
 
                     </ul>

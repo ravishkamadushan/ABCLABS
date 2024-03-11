@@ -24,11 +24,6 @@ namespace LabApplication.Admin
             {
                 Response.Redirect("../User/Login.aspx");
             }
-            else if (Session["doctor"] == null)
-            {
-                Response.Redirect("../User/Login.aspx");
-            }
-
             if (!IsPostBack)
             {
                 ShowService();

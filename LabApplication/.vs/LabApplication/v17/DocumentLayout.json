@@ -1,12 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\LabApplication\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|e:\\icbt campus\\1 semester (top up)\\advanced programing\\lab application\\abclabs\\labapplication\\labapplication\\doctor\\doctor.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\doctor\\doctor.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|e:\\icbt campus\\1 semester (top up)\\advanced programing\\lab application\\abclabs\\labapplication\\labapplication\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminMaster.Master",
+              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Admin\\AdminMaster.Master",
+              "RelativeDocumentMoniker": "LabApplication\\Admin\\AdminMaster.Master",
+              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Admin\\AdminMaster.Master",
+              "RelativeToolTip": "LabApplication\\Admin\\AdminMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-11T10:35:47.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doctor.Master",
+              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Doctor\\Doctor.Master",
+              "RelativeDocumentMoniker": "LabApplication\\Doctor\\Doctor.Master",
+              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Doctor\\Doctor.Master",
+              "RelativeToolTip": "LabApplication\\Doctor\\Doctor.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-11T10:26:52.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
