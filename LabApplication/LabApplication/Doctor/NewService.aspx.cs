@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace LabApplication.Admin
+namespace LabApplication.Doctor
 {
     public partial class NewService : System.Web.UI.Page
     {
@@ -15,9 +15,10 @@ namespace LabApplication.Admin
         SqlCommand cmd;
         string query;
         string str = ConfigurationManager.ConnectionStrings["labs"].ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["admin"] == null)
+            if (Session["doctor"] == null)
             {
                 Response.Redirect("../User/Login.aspx");
             }
@@ -27,13 +28,12 @@ namespace LabApplication.Admin
                 fillData();
             }
         }
-
         private void fillData()
         {
-           if (Request.QueryString["id"] != null)
+            if (Request.QueryString["id"] != null)
             {
                 con = new SqlConnection(str);
-                query = "Select * from Doctors where ServiceId = '" + Request.QueryString["id"] +"' ";
+                query = "Select * from Doctors where ServiceId = '" + Request.QueryString["id"] + "' ";
                 cmd = new SqlCommand(query, con);
                 con.Open();
                 SqlDataReader sdr = cmd.ExecuteReader();
@@ -46,7 +46,7 @@ namespace LabApplication.Admin
                         txtDescription.Text = sdr["Description"].ToString();
                         txtQualification.Text = sdr["Qualification"].ToString();
                         txtExperience.Text = sdr["Experience"].ToString();
-                        txtLastDate.Text = Convert.ToDateTime( sdr["LastDateToApply"]).ToString("yyyy-MM-dd");
+                        txtLastDate.Text = Convert.ToDateTime(sdr["LastDateToApply"]).ToString("yyyy-MM-dd");
                         txtFee.Text = sdr["Fee"].ToString();
                         ddlServiceType.SelectedValue = sdr["ServiceType"].ToString();
                         txtCompany.Text = sdr["CompanyName"].ToString();
@@ -75,7 +75,7 @@ namespace LabApplication.Admin
         {
             try
             {
-                string type,concatQuery, imagePath = string.Empty;
+                string type, concatQuery, imagePath = string.Empty;
                 bool isValidToExecute = false;
                 con = new SqlConnection(str);
                 if (Request.QueryString["id"] != null)
@@ -88,7 +88,7 @@ namespace LabApplication.Admin
                         }
                         else
                         {
-                            concatQuery = string.Empty ;
+                            concatQuery = string.Empty;
                         }
                     }
                     else
@@ -98,7 +98,7 @@ namespace LabApplication.Admin
 
                     query = @"Update Doctors set  Title=@Title,NoOfSlots=@NoOfSlots,Description=@Description,Qualification=@Qualification,
                             Experience=@Experience,LastDateToApply=@LastDateToApply,Fee=@Fee,ServiceType=@ServiceType,
-                            CompanyName=@CompanyName, "+ concatQuery +@" Website=@Website,Email=@Email,Address=@Address,ContactNo=@ContactNo,
+                            CompanyName=@CompanyName, " + concatQuery + @" Website=@Website,Email=@Email,Address=@Address,ContactNo=@ContactNo,
                             District=@District where ServiceId=@id";
                     type = "updated";
 
@@ -185,7 +185,7 @@ namespace LabApplication.Admin
                     {
                         cmd.Parameters.AddWithValue("@CompanyImage", imagePath);
                         isValidToExecute = true;
-                    }       
+                    }
                 }
                 if (isValidToExecute)
                 {
@@ -193,7 +193,7 @@ namespace LabApplication.Admin
                     int res = cmd.ExecuteNonQuery();
                     if (res > 0)
                     {
-                        lblMsg.Text = "Service" + type + "Successfull..";
+                        lblMsg.Text = "Service " + type + " Successfull..";
                         lblMsg.CssClass = "alert alert-success";
                         clear();
                     }
@@ -231,5 +231,6 @@ namespace LabApplication.Admin
             ddlServiceType.ClearSelection();
             ddlDistrict.ClearSelection();
         }
+
     }
 }

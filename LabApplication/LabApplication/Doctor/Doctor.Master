@@ -79,14 +79,14 @@
                         </li>
 
                         <li>
-                            <a href="../Admin/NewService.aspx">
+                            <a href="NewService.aspx">
                                 <div class="icon"><i class="fas fa-plus-square"></i></div>
                                 <div class="title">New Service</div>
                             </a>
                         </li>
 
                         <li>
-                            <a href="../Admin/ServiceList.aspx">
+                            <a href="ServiceList.aspx">
                                 <div class="icon"><i class="fas fa-file-alt"></i></div>
                                 <div class="title">Service List</div>
                             </a>
@@ -100,7 +100,7 @@
                         </li>
 
                         <li>
-                            <a href="../Admin/ContactList.aspx">
+                            <a href="ContactList.aspx">
                                 <div class="icon"><i class="fas fa-comment-alt"></i></div>
                                 <div class="title">Contact List</div>
                             </a>

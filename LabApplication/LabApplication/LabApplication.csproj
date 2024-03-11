@@ -233,7 +233,10 @@
     <Content Include="assets\js\vendor\jquery-1.12.4.min.js" />
     <Content Include="assets\js\vendor\modernizr-3.5.0.min.js" />
     <Content Include="assets\js\wow.min.js" />
+    <Content Include="Doctor\ContactList.aspx" />
     <Content Include="Doctor\Dashboard.aspx" />
+    <Content Include="Doctor\NewService.aspx" />
+    <Content Include="Doctor\ServiceList.aspx" />
     <Content Include="Global.asax" />
     <Content Include="User\AboutUs.aspx" />
     <Content Include="User\Contact.aspx" />
@@ -297,6 +300,13 @@
     <Compile Include="Admin\ViewReport.aspx.designer.cs">
       <DependentUpon>ViewReport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Doctor\ContactList.aspx.cs">
+      <DependentUpon>ContactList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor\ContactList.aspx.designer.cs">
+      <DependentUpon>ContactList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Doctor\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -310,6 +320,20 @@
     </Compile>
     <Compile Include="Doctor\Doctor.Master.designer.cs">
       <DependentUpon>Doctor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\NewService.aspx.cs">
+      <DependentUpon>NewService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor\NewService.aspx.designer.cs">
+      <DependentUpon>NewService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\ServiceList.aspx.cs">
+      <DependentUpon>ServiceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor\ServiceList.aspx.designer.cs">
+      <DependentUpon>ServiceList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -89,9 +89,9 @@
 
             <div class="row mr-lg-5 ml-lg-5 mb-3">
                 <div class="col-md-6 pt-3">
-                    <label for="txtCompany" style="font-weight: 600">Company Name</label>
+                    <label for="txtCompany" style="font-weight: 600">Doctor Name</label>
                     <asp:TextBox ID="txtCompany" runat="server" CssClass="form-control"
-                        placeholder="Enter Company Name" required></asp:TextBox>
+                        placeholder="Enter Doctor Name" required></asp:TextBox>
                 </div>
 
                 <div class="col-md-6 pt-3">
