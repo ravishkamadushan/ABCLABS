@@ -7,9 +7,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Drawing;
 
-namespace LabApplication.Admin
+namespace LabApplication.Doctor
 {
     public partial class ViewReport : System.Web.UI.Page
     {
@@ -20,7 +19,7 @@ namespace LabApplication.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["admin"] == null)
+            if (Session["doctor"] == null)
             {
                 Response.Redirect("../User/Login.aspx");
             }
@@ -77,7 +76,7 @@ namespace LabApplication.Admin
                 ShowAppliedService();
             }
             catch (Exception ex)
-            { 
+            {
                 Response.Write("<script>alert('" + ex.Message + "');</script>");
             }
             finally

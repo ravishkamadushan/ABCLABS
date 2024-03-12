@@ -16,7 +16,7 @@
                 <div class="col-md-12">
                     <asp:GridView ID="GridView1" runat="server" CssClass="table table-hover table-bordered"
                         EmptyDataText="No records to display.." AutoGenerateColumns="False" AllowPaging="True"
-                        PageSize="5" OnPageIndexChanging="GridView1_PageIndexChanging1" DataKeyNames="ApplyDoctorsId"
+                        PageSize="5" OnPageIndexChanging="GridView1_PageIndexChanging" DataKeyNames="ApplyDoctorsId"
                         OnRowDeleting="GridView1_RowDeleting" HeaderStyle-HorizontalAlign="Center">
                         <Columns>
 

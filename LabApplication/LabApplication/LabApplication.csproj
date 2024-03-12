@@ -237,6 +237,7 @@
     <Content Include="Doctor\Dashboard.aspx" />
     <Content Include="Doctor\NewService.aspx" />
     <Content Include="Doctor\ServiceList.aspx" />
+    <Content Include="Doctor\ViewReport.aspx" />
     <Content Include="Global.asax" />
     <Content Include="User\AboutUs.aspx" />
     <Content Include="User\Contact.aspx" />
@@ -334,6 +335,13 @@
     </Compile>
     <Compile Include="Doctor\ServiceList.aspx.designer.cs">
       <DependentUpon>ServiceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\ViewReport.aspx.cs">
+      <DependentUpon>ViewReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor\ViewReport.aspx.designer.cs">
+      <DependentUpon>ViewReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

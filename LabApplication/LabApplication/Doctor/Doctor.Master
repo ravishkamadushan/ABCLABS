@@ -93,7 +93,7 @@
                         </li>
 
                         <li>
-                            <a href="../Admin/ViewReport.aspx">
+                            <a href="ViewReport.aspx">
                                 <div class="icon"><i class="fas fa-file-download"></i></div>
                                 <div class="title">ViewView Report</div>
                             </a>
