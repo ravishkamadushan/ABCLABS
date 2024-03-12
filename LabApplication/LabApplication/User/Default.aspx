@@ -92,7 +92,7 @@
                                 <span class="flaticon-helmet"></span>
                             </div>
                             <div class="services-cap">
-                                <h5><a href="ServiceListing.aspx">Construction</a></h5>
+                                <h5><a href="ServiceListing.aspx">ALLERGY SPECIALIST</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
             </div>
         </div>
         <!-- Our Services End -->
-        <!-- Online CV Area Start -->
+        <!-- Online Reports Area Start -->
         <div class="online-cv cv-bg section-overly pt-90 pb-120" data-background="../assets/img/gallery/pa_bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
@@ -157,8 +157,8 @@
                 </div>
             </div>
         </div>
-        <!-- Online CV Area End-->
-        <!-- FeaturedServices-start -->
+        <!-- Online Reports Area End-->
+        <!-- Featured Services-start -->
         <section class="featured-job-area feature-padding">
             <div class="container">
                 <!-- Section Tittle -->
@@ -207,7 +207,7 @@
                 </div>
             </div>
         </section>
-        <!-- Featured_job_end -->
+        <!-- Featured_Service_end -->
         <!-- How  Apply Process Start-->
         <div class="apply-process-area apply-bg pt-150 pb-150" data-background="../assets/img/gallery/how-applybg.png">
             <div class="container">
@@ -363,62 +363,61 @@
             </div>
         </div>
         <!-- Support Company End-->
-        <!-- Blog Area Start -->
-        <div class="home-blog-area blog-h-padding">
-            <div class="container">
-                <!-- Section Tittle -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-tittle text-center">
-                            <span>Our latest blog</span>
-                            <h2>Our recent news</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="../assets/img/blog/home-blog1.jpg" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>|   Properties</p>
-                                    <h3><a href="single-blog.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="#" class="more-btn">Read more »</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="../assets/img/blog/home-blog2.jpg" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>|   Properties</p>
-                                    <h3><a href="single-blog.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="#" class="more-btn">Read more »</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Area End -->
-
+       <!-- Blog Area Start -->
+  <div class="home-blog-area blog-h-padding">
+      <div class="container">
+          <!-- Section Tittle -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="section-tittle text-center">
+                      <span>Our latest blog</span>
+                      <h2>Our recent news</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                  <div class="home-blog-single mb-30">
+                      <div class="blog-img-cap">
+                          <div class="blog-img">
+                              <img src="../assets/img/blog/home1-blog2.jpg" alt="">
+                              <!-- Blog date -->
+                              <div class="blog-date text-center">
+                                  <span>24</span>
+                                  <p>Now</p>
+                              </div>
+                          </div>
+                          <div class="blog-cap">
+                              <p>|   Properties</p>
+                              <h3><a href="#">Unveiling Breakthrough Discoveries: Advancements in Lab Technology at Our Facility</a></h3>
+                              <a href="ServiceListing.aspx" class="more-btn">Apply for »</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                  <div class="home-blog-single mb-30">
+                      <div class="blog-img-cap">
+                          <div class="blog-img">
+                              <img src="../assets/img/blog/home1-blog1.jpg" alt="">
+                              <!-- Blog date -->
+                              <div class="blog-date text-center">
+                                  <span>24</span>
+                                  <p>Now</p>
+                              </div>
+                          </div>
+                          <div class="blog-cap">
+                              <p>|   Properties</p>
+                              <h3><a href="#">Revolutionizing Research: Groundbreaking Experiments Lead to Scientific Breakthroughs</a></h3>
+                              <a href="ServiceListing.aspx" class="more-btn">Apply for »</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Blog Area End -->
     </main>
 
 </asp:Content>
