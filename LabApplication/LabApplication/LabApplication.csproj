@@ -155,7 +155,6 @@
     <Content Include="assets\img\gallery\pa_bg.jpg" />
     <Content Include="assets\img\hero\about1.jpg" />
     <Content Include="assets\img\hero\h1_hero.jpg" />
-    <Content Include="assets\img\icon\calendar_3176395.png" />
     <Content Include="assets\img\icon\EditIcon.png" />
     <Content Include="assets\img\icon\form.png" />
     <Content Include="assets\img\icon\job-list1.png" />
@@ -241,7 +240,6 @@
     <Content Include="Doctor\ViewReport.aspx" />
     <Content Include="Global.asax" />
     <Content Include="User\AboutUs.aspx" />
-    <Content Include="User\AppliedServices.aspx" />
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Default.aspx" />
     <Content Include="User\Login.aspx" />
@@ -355,13 +353,6 @@
     </Compile>
     <Compile Include="User\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\AppliedServices.aspx.cs">
-      <DependentUpon>AppliedServices.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\AppliedServices.aspx.designer.cs">
-      <DependentUpon>AppliedServices.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

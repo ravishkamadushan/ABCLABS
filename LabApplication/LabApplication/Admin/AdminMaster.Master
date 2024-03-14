@@ -106,10 +106,10 @@
                         </li>
 
                         <li>
-                            <a href="UserList.aspx">
-                                <div class="icon"><i class="fas fa-users"></i></div>
-                                <div class="title">User List</div>
-                            </a>
+                        <a href="UserList.aspx">
+                            <div class="icon"><i class="fas fa-users"></i></div>
+                            <div class="title">User List</div>
+                        </a>
                         </li>
 
                     </ul>
