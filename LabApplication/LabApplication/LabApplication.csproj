@@ -240,6 +240,7 @@
     <Content Include="Doctor\ViewReport.aspx" />
     <Content Include="Global.asax" />
     <Content Include="User\AboutUs.aspx" />
+    <Content Include="User\AppliedServices.aspx" />
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Default.aspx" />
     <Content Include="User\Login.aspx" />
@@ -353,6 +354,13 @@
     </Compile>
     <Compile Include="User\AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\AppliedServices.aspx.cs">
+      <DependentUpon>AppliedServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\AppliedServices.aspx.designer.cs">
+      <DependentUpon>AppliedServices.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
