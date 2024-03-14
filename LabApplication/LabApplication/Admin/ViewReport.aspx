@@ -24,7 +24,7 @@
                                 <ItemStyle HorizontalAlign="Center" />
                             </asp:BoundField>
 
-                            <asp:BoundField DataField="CompanyName" HeaderText="Company Name">
+                            <asp:BoundField DataField="CompanyName" HeaderText="Doctor Name">
                                 <ItemStyle HorizontalAlign="Center" />
                             </asp:BoundField>
 

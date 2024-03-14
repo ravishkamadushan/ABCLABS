@@ -1,87 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|e:\\icbt campus\\1 semester (top up)\\advanced programing\\lab application\\abclabs\\labapplication\\labapplication\\user\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\user\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|e:\\icbt campus\\1 semester (top up)\\advanced programing\\lab application\\abclabs\\labapplication\\labapplication\\user\\aboutus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\user\\aboutus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|e:\\icbt campus\\1 semester (top up)\\advanced programing\\lab application\\abclabs\\labapplication\\labapplication\\admin\\viewreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\admin\\viewreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\labapplication\\admin\\viewreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\admin\\viewreport.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\User\\Default.aspx",
-              "RelativeDocumentMoniker": "LabApplication\\User\\Default.aspx",
-              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\User\\Default.aspx",
-              "RelativeToolTip": "LabApplication\\User\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-12T08:35:10.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AboutUs.aspx",
-              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\User\\AboutUs.aspx",
-              "RelativeDocumentMoniker": "LabApplication\\User\\AboutUs.aspx",
-              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\User\\AboutUs.aspx",
-              "RelativeToolTip": "LabApplication\\User\\AboutUs.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-12T08:29:12.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewReport.aspx.cs",
-              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Admin\\ViewReport.aspx.cs",
-              "RelativeDocumentMoniker": "LabApplication\\Admin\\ViewReport.aspx.cs",
-              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Admin\\ViewReport.aspx.cs",
-              "RelativeToolTip": "LabApplication\\Admin\\ViewReport.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T08:19:14.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ViewReport.aspx",
-              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Admin\\ViewReport.aspx",
-              "RelativeDocumentMoniker": "LabApplication\\Admin\\ViewReport.aspx",
-              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\Admin\\ViewReport.aspx",
-              "RelativeToolTip": "LabApplication\\Admin\\ViewReport.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-03-12T08:18:59.672Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

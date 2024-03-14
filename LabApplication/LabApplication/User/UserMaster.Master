@@ -65,11 +65,9 @@
                                          <li><a href="Default.aspx">Home</a></li>
                                          <li><a href="ServiceListing.aspx">Find a Service </a></li>
                                          <li><a href="AboutUs.aspx">About</a></li>
-                                         <li><a href="#">Page</a>
+                                         <li><a href="#">Find</a>
                                              <ul class="submenu">
-                                                 <li><a href="blog.html">Blog</a></li>
-                                                 <li><a href="single-blog.html">Blog Details</a></li>
-                                                 <li><a href="elements.html">Elements</a></li>
+                                                 <li><a href="AppliedServices.aspx">Applied Services</a></li>
                                                  <li><a href="ServiceDetails.aspx">Service Details</a></li>
                                              </ul>
                                          </li>
