@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace LabApplication.User
 {
-    public partial class Payment : System.Web.UI.Page
+    public partial class Payment1 : System.Web.UI.Page
     {
         SqlConnection con;
         SqlCommand cmd;
@@ -83,3 +83,4 @@ namespace LabApplication.User
         }
     }
 }
+    

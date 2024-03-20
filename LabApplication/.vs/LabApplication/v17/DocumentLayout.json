@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|e:\\icbt campus\\1 semester (top up)\\advanced programing\\lab application\\abclabs\\labapplication\\labapplication\\user\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D0AC9B34-4C53-4CEC-AF28-D9D4778C19F8}|LabApplication\\LabApplication.csproj|solutionrelative:labapplication\\user\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\User\\Default.aspx",
+              "RelativeDocumentMoniker": "LabApplication\\User\\Default.aspx",
+              "ToolTip": "E:\\ICBT Campus\\1 Semester (Top Up)\\Advanced Programing\\Lab Application\\ABCLABS\\LabApplication\\LabApplication\\User\\Default.aspx",
+              "RelativeToolTip": "LabApplication\\User\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-19T19:25:53.67Z",
+              "EditorCaption": ""
             }
           ]
         }

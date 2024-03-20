@@ -50,7 +50,7 @@ namespace LabApplication.User
                 using (SqlConnection con = new SqlConnection(str))
                 {
                     con.Open();
-                    SqlDataAdapter sda = new SqlDataAdapter("SELECT dd.Title,dd.Fee, dd.CompanyName, dd.CompanyImage FROM Doctors dd INNER JOIN AppliedDoctors apd ON dd.ServiceId = apd.ServiceId INNER JOIN Person pp ON apd.UserId = pp.UserId WHERE pp.Username = @Username", con);
+                    SqlDataAdapter sda = new SqlDataAdapter("SELECT dd.Title,dd.Fee, dd.CompanyName, dd.CompanyImage,pp.Report FROM Doctors dd INNER JOIN AppliedDoctors apd ON dd.ServiceId = apd.ServiceId INNER JOIN Person pp ON apd.UserId = pp.UserId WHERE pp.Username = @Username", con);
                     sda.SelectCommand.Parameters.AddWithValue("@Username", Username);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);

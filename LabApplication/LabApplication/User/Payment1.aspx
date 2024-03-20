@@ -1,10 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/UserMaster.Master" AutoEventWireup="true" CodeBehind="Payment.aspx.cs" Inherits="LabApplication.User.Payment" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/UserMaster.Master" AutoEventWireup="true" CodeBehind="Payment1.aspx.cs" Inherits="LabApplication.User.Payment1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="../assets/css/Payment.css" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <section class="book-section" style="width: 100%; height: 100%; background-repeat: no-repeat; background-size: auto; background-attachment: fixed; background-position: left;">
 
         <div class="container py-5">
@@ -38,8 +39,6 @@
                                             <label for="txtName">
                                                 <h6>Card Owner</h6>
                                             </label>
-                                            <%--<input type="text" name="username" placeholder="Card Owner Name" required class="form-control ">--%>
-
                                             <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Card Owner Name"></asp:TextBox>
                                             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
                                                 ErrorMessage="Name Cannot be Empty" ControlToValidate="txtName" ForeColor="Red"
@@ -64,59 +63,64 @@
                                                 <span class="input-group-text text-muted"><i class="fab fa-cc-visa mx-1"></i><i class="fab fa-cc-mastercard mx-1"></i><i class="fab fa-cc-amex mx-1"></i></span>
                                             </div>
                                         </div>
-                                </div>
 
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <div class="form-group">
-                                            <label>
-                                                <span class="hidden-xs">
-                                                    <h6>Expiration Date</h6>
-                                                </span>
-                                            </label>
-                                            <div class="input-group">
-                                                <asp:TextBox ID="txtMonth" runat="server" CssClass="form-control" placeholder="MM" TextMode="Number"></asp:TextBox>
-                                                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"
-                                                    ErrorMessage="Expiry Date cannot be empty" ControlToValidate="txtMonth" Text="*"
-                                                    ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
-                                                <asp:TextBox ID="txtYear" runat="server" CssClass="form-control" placeholder="YY" TextMode="Number"></asp:TextBox>
-                                                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server"
-                                                    ErrorMessage="Expiry Date cannot be empty" ControlToValidate="txtYear" Text="*"
-                                                    ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                <div class="form-group">
+                                                    <label>
+                                                        <span class="hidden-xs">
+                                                            <h6>Expiration Date</h6>
+                                                        </span>
+                                                    </label>
+                                                    <div class="input-group">
+                                                        <asp:TextBox ID="txtMonth" runat="server" CssClass="form-control" placeholder="MM" TextMode="Number"></asp:TextBox>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server"
+                                                            ErrorMessage="Expiry Date cannot be empty" ControlToValidate="txtMonth" Text="*"
+                                                            ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                                        <asp:TextBox ID="txtYear" runat="server" CssClass="form-control" placeholder="YY" TextMode="Number"></asp:TextBox>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server"
+                                                            ErrorMessage="Expiry Date cannot be empty" ControlToValidate="txtYear" Text="*"
+                                                            ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="form-group mb-4">
+                                                    <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
+                                                        <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6>
+                                                    </label>
+                                                    <asp:TextBox ID="txtCvv" runat="server" CssClass="form-control"></asp:TextBox>
+                                                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="CVV Cannot be Empty"
+                                                        ControlToValidate="txtCvv" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                                    <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server"
+                                                        ErrorMessage="CVV must be 3 Digits" ForeColor="Red" ValidationExpression="[0-9]{3}"
+                                                        ControlToValidate="txtCvv" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RegularExpressionValidator>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="form-group mb-4">
-                                            <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
-                                                <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6>
-                                            </label>
-                                            <asp:TextBox ID="txtCvv" runat="server" CssClass="form-control"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="CVV Cannot be Empty"
-                                                ControlToValidate="txtCvv" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
-                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server"
-                                                ErrorMessage="CVV must be 3 Digits" ForeColor="Red" ValidationExpression="[0-9]{3}"
-                                                ControlToValidate="txtCvv" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RegularExpressionValidator>
+
+                                        <div class="card-footer">
+                                            <asp:LinkButton ID="btnConfirm" runat="server"
+                                                CssClass="subscribe btn btn-primary btn-block shadow-sm" OnClick="btnConfirm_Click" ValidationGroup="card">Confirm Payment</asp:LinkButton>
                                         </div>
-                                    </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 mx-auto">
+                                                <asp:ValidationSummary ID="ValidationSummary1" runat="server" Font-Bold="True" ForeColor="Red"
+                                                    HeaderText="Fix the Following Errors" ValidationGroup="card" />
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-
-                                <div class="card-footer">
-                                    <asp:LinkButton ID="btnConfirm" runat="server"
-                                        CssClass="subscribe btn btn-primary btn-block shadow-sm" OnClick="btnConfirm_Click">Confirm Payment</asp:LinkButton>
-                                </div>
-
-                                <div class="row">
-                                    <asp:ValidationSummary ID="ValidationSummary1" runat="server" Font-Bold="True" ForeColor="Red"
-                                        HeaderText="Fix the Following Errors" />
-                                </div>
+                                <!-- End -->
                             </div>
-                            <!-- End -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
 
 </asp:Content>

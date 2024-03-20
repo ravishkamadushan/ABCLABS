@@ -79,7 +79,7 @@ namespace LabApplication.User
                             btnApplyService.Text = "Applied";
 
                             // Redirect to payment page
-                            Response.Redirect("payment.aspx");
+                            Response.Redirect("payment1.aspx");
                         }
                         else
                         {

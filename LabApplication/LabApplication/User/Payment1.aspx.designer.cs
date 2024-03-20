@@ -11,7 +11,7 @@ namespace LabApplication.User
 {
 
 
-    public partial class Payment
+    public partial class Payment1
     {
 
         /// <summary>

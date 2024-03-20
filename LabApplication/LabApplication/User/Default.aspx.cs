@@ -11,7 +11,8 @@ using System.Web.UI.WebControls;
 namespace LabApplication.User
 {
     public partial class Default : System.Web.UI.Page
-    {
+    {    
+        //define variables
         SqlConnection con;
         SqlCommand cmd;
         SqlDataAdapter sda;

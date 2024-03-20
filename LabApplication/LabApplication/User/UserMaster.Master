@@ -140,8 +140,8 @@
                                   <li><a href="Default.aspx">Home</a></li>
                                   <li><a href="Contact.aspx">Contact Us</a></li>
                                   <li><a href="ServiceListing.aspx">Services</a></li>
-                                  <li><a href="#">Proparties</a></li>
-                                  <li><a href="#">Support</a></li>
+                                  <li><a href="AppliedServices.aspx">Applied Services</a></li>
+                                  <li><a href="AboutUs.aspx">About us</a></li>
                               </ul>
                           </div>
                       </div>
@@ -186,20 +186,20 @@
                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                   <div class="footer-tittle-bottom">
                       <span>5000+</span>
-                      <p>Talented Hunter</p>
+                      <p>Services</p>
                   </div>
                   </div>
                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                       <div class="footer-tittle-bottom">
-                          <span>451</span>
-                          <p>Talented Hunter</p>
+                          <span>10+</span>
+                          <p>Branchers</p>
                       </div>
                   </div>
                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                       <!-- Footer Bottom Tittle -->
                       <div class="footer-tittle-bottom">
-                          <span>568</span>
-                          <p>Talented Hunter</p>
+                          <span>568+</span>
+                          <p>World wide users</p>
                       </div>
                   </div>
              </div>

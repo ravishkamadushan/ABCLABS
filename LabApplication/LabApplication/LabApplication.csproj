@@ -244,7 +244,7 @@
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Default.aspx" />
     <Content Include="User\Login.aspx" />
-    <Content Include="User\Payment.aspx" />
+    <Content Include="User\Payment1.aspx" />
     <Content Include="User\Profile.aspx" />
     <Content Include="User\Register.aspx" />
     <Content Include="User\ReportBuild.aspx" />
@@ -383,12 +383,12 @@
     <Compile Include="User\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User\Payment.aspx.cs">
-      <DependentUpon>Payment.aspx</DependentUpon>
+    <Compile Include="User\Payment1.aspx.cs">
+      <DependentUpon>Payment1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\Payment.aspx.designer.cs">
-      <DependentUpon>Payment.aspx</DependentUpon>
+    <Compile Include="User\Payment1.aspx.designer.cs">
+      <DependentUpon>Payment1.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
